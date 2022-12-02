@@ -1,0 +1,287 @@
+body {
+    width: 1450px;
+}
+header {    
+    position: relative;
+    height: 60px;
+}
+.logo {
+    position: relative;    
+    top: 60px;
+    left: 70px;
+    width: 225px;
+    height: 50px;
+}
+.main {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 920px;
+
+}
+.textarea {    
+    display: flex;    
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: center;
+    width: 700px;    
+}
+.whatisloremipsum {
+    display: flex;
+    align-items: flex-end;
+    margin: 70px 70px 35px 70px;
+    width: 562px;
+    height: 130px;
+    font-family: 'Cabin Sketch', times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 81px;
+    line-height: 80.5%;    
+    letter-spacing: 0.03em;
+    color: #333333;
+}
+.loremipsumdescription{
+    margin: 35px 70px 35px 70px;
+    width: 441px;
+    height: 66px;
+    font-family: 'Roboto', times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+}
+.button_aboutus_cont {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 35px 70px 35px 70px;
+    width: 598px;    
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 66px;
+    background: #CF3031;
+    box-shadow: 0px 30px 45px rgba(207, 48, 49, 0.3);
+    border-radius: 20px;
+    border: transparent;
+}
+.buttonline1 {
+    margin: 0px;
+    font-family: 'Roboto', times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.buttonline2 {
+    margin: 0px;
+    font-family: 'Roboto', times, serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.button:hover {
+    cursor: pointer;
+}
+.viewourmenu {
+    width: 264px;
+    height: 66px;
+    font-family: 'Roboto', times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 66px;
+    text-align: center;
+    text-decoration: none;
+    color: #4F4F4F;  
+}
+.pizzaimagearea {
+    position: relative;    
+    width: 749px;
+    height: 822px;    
+}
+.image {    
+    display: flex;
+    justify-content: flex-end;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ellipsered {
+    position: relative;
+    z-index: 1;
+    width: 749px;
+    height: 822px;    
+    background-image: url('../images/Ellipsered.png');
+}
+.ellipsewhite {
+    position: absolute;
+    left: 29px;
+    top: 53px;
+    z-index: 2;
+    width: 707px;
+    height: 707px;    
+    background-image: url('../images/Ellipsewhite.png');
+}
+.mushroompizzatop {
+    position: absolute;
+    left: 157px;
+    top: 83px;
+    z-index: 3;  
+    width: 93px;
+    height: 82px;    
+    background-image: url('../images/Mushroompizzatop.png');
+}
+.plantpizzatop {
+    position: absolute;
+    left: 569px;
+    top: -42px;
+    z-index: 3;
+    width: 176px;
+    height: 186px;    
+    background-image: url('../images/Plantpizzatop.png');
+}
+.fishpizzaright {
+    position: absolute;
+    left: 540px;
+    top: 149px;
+    z-index: 3;
+    width: 212px;
+    height: 255px;    
+    background-image: url('../images/fishpizzaright.png');
+}
+.pepperpizzadown {
+    position: absolute;
+    left: 520px;
+    top: 625px;
+    z-index: 3;
+    width: 214px;
+    height: 257px;    
+    background-image: url('../images/pepperpizzadown.png');
+}
+.plantpizzadown {
+    position: absolute;
+    left: 150px;
+    top: 627px;
+    z-index: 3;
+    width: 180px;
+    height: 188px;    
+    background-image: url('../images/plantpizzadown.png');
+}
+.fishpizzaleft {
+    position: absolute;
+    left: -88px;
+    top: 368px;
+    z-index: 3;
+    width: 264px;
+    height: 264px;    
+    background-image: url('../images/fishpizzaleft.png');
+}
+.pizza {
+    position: absolute;
+    left: 17px;
+    top: 48px;    
+    z-index: 4;
+    width: 730px;
+    height: 746px;
+    background-image: url('../images/pizza1.png');
+    }
+.leafmain {
+    position: absolute;
+    left: -60px;
+    top: 795px;
+    z-index: 4;
+    width: 120px;
+    height: 139px;    
+    background-image: url('../images/leafmain.png');
+    }
+.tomatomain {
+    position: absolute;
+    left: -580px;
+    top: 715px;    
+    z-index: 4;
+    width: 220px;
+    height: 185px;        
+    background-image: url('../images/Tomatomain.png');
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+h2 {
+    width: 587px;
+    height: 56px;
+    font-family: 'Roboto', times, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.delivery_redfont {
+    color: #CF3031;
+}
+.deliveryarea {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    height: 365px;    
+}
+.deliverylogo {
+    position: relative;
+    width: 282px;
+    height: 282px;
+    background-color: #FFFFFF;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 50px rgba(71, 85, 114, 0.15);
+    border-radius: 50px;
+}
+.doordashlogo {
+    z-index: 2;
+    background-image: url('../images/doordash.png');    
+}
+.ubereatslogo {
+    z-index: 2;
+    background-image: url('../images/ubereats.png');    
+}
+.favorlogo {
+    z-index: 2;
+    background-image: url('../images/favor.png');
+}
+.grubhublogo {
+    z-index: 2;
+    background-image: url('../images/grubhub.png');
+}
+.fishmain {
+    position: absolute;
+    left: 850px;
+    top: 160px;
+    z-index: 1;
+    width: 255px;
+    height: 255px;    
+    background-image: url('../images/fishmain.png');
+}
+.plantmain {
+    position: absolute;
+    left: 230px;
+    top: 275px;
+    z-index: 1;
+    width: 176px;
+    height: 91px;    
+    background-image: url('../images/plantmain1.png');
+}
